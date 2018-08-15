@@ -1,0 +1,14 @@
+public class welcomemessage {
+	public void welcomemessage(String name) {
+		System.out.println("Hello " + name);
+	}
+
+}
+/*welcomemessage is the class name. It is not the main class
+ * no static - happens when a method/object is accessible using .Object
+*make string variable, called name.
+*within () is the argument. argument = type of data a method can receive. Extra info the method needs to run. 
+*normally (String[] args) is used. String = a group of characters. e.g using system.out.println prints a number of characters.
+*This means the method expects an array of strings.
+*/
+ 
