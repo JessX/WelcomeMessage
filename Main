@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner input = new Scanner (System.in);
+		welcomemessage nameObject = new welcomemessage ();
+		
+		System.out.println("enter name");
+		String name = input.nextLine(); //we have variable name. want it = any input 
+		
+		nameObject.welcomemessage(name);
+	}
+}
+//we need to clarify that name = string variable. For calculator, clarified int first. Here we clarify String name.
+//anything entered = stored in string variable name 
+//instead of method with (), have to put the argument of the method. 
